@@ -1,0 +1,314 @@
+[
+  {
+    "model": "games_api.boardgame",
+    "pk": 1,
+    "fields": {
+      "name": "Everdell",
+      "background": "https://cf.geekdo-images.com/imagepage/img/Q6GnWhr1y1gMJpRNRogK_QBou_k=/fit-in/900x600/filters:no_upscale()/pic3918905.png"
+    }
+  },
+  {
+    "model": "games_api.boardgame",
+    "pk": 2,
+    "fields": {
+      "name": "7 Wonders Duel",
+      "background": "https://cf.geekdo-images.com/imagepage/img/K29SesN_KgIUDX0O5y71nGX_GsQ=/fit-in/900x600/filters:no_upscale()/pic3376065.jpg"
+    }
+  },
+  {
+    "model": "games_api.boardgame",
+    "pk": 3,
+    "fields": {
+      "name": "Scythe",
+      "background": "https://cf.geekdo-images.com/imagepage/img/VrePp6I9_HXw_NtBe4NFcwF5dRQ=/fit-in/900x600/filters:no_upscale()/pic3163924.jpg"
+    }
+  },
+  {
+    "model": "games_api.boardgame",
+    "pk": 4,
+    "fields": {
+      "name": "Wingspan",
+      "background": "https://cf.geekdo-images.com/imagepage/img/r6sY9GDaiavqrxY25QjhNB68sBM=/fit-in/900x600/filters:no_upscale()/pic4458123.jpg"
+    }
+  },
+  {
+    "model": "games_api.boardgame",
+    "pk": 5,
+    "fields": {
+      "name": "Clans of Caledonia",
+      "background": "https://cf.geekdo-images.com/imagepage/img/Hq7JR4uJYZsqHdFJMf-M1mhLYwU=/fit-in/900x600/filters:no_upscale()/pic3511783.png"
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 1,
+    "fields": {
+      "name": "Cards",
+      "boardgame": 1
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 2,
+    "fields": {
+      "name": "Point tokens",
+      "boardgame": 1
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 3,
+    "fields": {
+      "name": "Events",
+      "boardgame": 1
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 4,
+    "fields": {
+      "name": "Prosperity Cards",
+      "boardgame": 1
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 5,
+    "fields": {
+      "name": "Journey Points",
+      "boardgame": 1
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 6,
+    "fields": {
+      "name": "Blue Cards",
+      "boardgame": 2
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 7,
+    "fields": {
+      "name": "Green Cards",
+      "boardgame": 2
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 8,
+    "fields": {
+      "name": "Yellow Cards",
+      "boardgame": 2
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 9,
+    "fields": {
+      "name": "Purple Cards",
+      "boardgame": 2
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 10,
+    "fields": {
+      "name": "Wonders",
+      "boardgame": 2
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 11,
+    "fields": {
+      "name": "Progress Tokens",
+      "boardgame": 2
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 12,
+    "fields": {
+      "name": "Money",
+      "boardgame": 2
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 13,
+    "fields": {
+      "name": "Military Track",
+      "boardgame": 2
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 14,
+    "fields": {
+      "name": "Coins In Hand",
+      "boardgame": 3
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 15,
+    "fields": {
+      "name": "Star Tokens",
+      "boardgame": 3
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 16,
+    "fields": {
+      "name": "Territories Controlled",
+      "boardgame": 3
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 17,
+    "fields": {
+      "name": "Resources Controlled",
+      "boardgame": 3
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 18,
+    "fields": {
+      "name": "Structure Bonus",
+      "boardgame": 3
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 19,
+    "fields": {
+      "name": "Birds",
+      "boardgame": 4
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 20,
+    "fields": {
+      "name": "Bonus Cards",
+      "boardgame": 4
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 21,
+    "fields": {
+      "name": "End-of-reound Goals",
+      "boardgame": 4
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 22,
+    "fields": {
+      "name": "Eggs",
+      "boardgame": 4
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 23,
+    "fields": {
+      "name": "Food On Cards",
+      "boardgame": 4
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 24,
+    "fields": {
+      "name": "Tucked Cards",
+      "boardgame": 4
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 25,
+    "fields": {
+      "name": "Glory",
+      "boardgame": 5
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 26,
+    "fields": {
+      "name": "Basic Goods",
+      "boardgame": 5
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 27,
+    "fields": {
+      "name": "Processed Goods",
+      "boardgame": 5
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 28,
+    "fields": {
+      "name": "Money",
+      "boardgame": 5
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 29,
+    "fields": {
+      "name": "Hops",
+      "boardgame": 5
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 30,
+    "fields": {
+      "name": "Cotton",
+      "boardgame": 5
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 31,
+    "fields": {
+      "name": "Tobacco",
+      "boardgame": 5
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 32,
+    "fields": {
+      "name": "Sugar cane",
+      "boardgame": 5
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 33,
+    "fields": {
+      "name": "Export scoring",
+      "boardgame": 5
+    }
+  },
+  {
+    "model": "games_api.category",
+    "pk": 34,
+    "fields": {
+      "name": "Settlement scoring",
+      "boardgame": 5
+    }
+  }
+]
