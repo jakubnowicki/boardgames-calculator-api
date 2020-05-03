@@ -19,6 +19,11 @@ class Query(object):
     name=graphene.String()
   )
 
+  all_boardgames = graphene.List(BoardgameType)
+
+  def resolve_all_boardgames(self, info, **kwargs):
+    return Boardgame.objects.all()
+
   def resolve_boardgame(self, info, **kwargs):
     id = kwargs.get('id')
     name = kwargs.get('name')
